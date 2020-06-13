@@ -17,7 +17,7 @@ print (mydata)
 #print tp.entropy(set1)
 #print tp.entropy(set2)
 
-#costruito a cazzo di cane perche buildtree itera sulle prime n-1 colonne,
+#buildtree itera sulle prime n-1 colonne,
 # ma in questo cazzo di dataset il target si trova sulla prima colonna
 tree = tp.buildtree(mydata)
 
